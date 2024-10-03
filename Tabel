@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            table {
+                width: 70%;
+                border-collapse: collapse;
+                margin: 20px auto;
+                background-color: #f2f2f2;
+            }
+            th, td {
+                border: 2px solid black;
+                padding: 15px; 
+                text-align: center;
+            }
+            th {
+                background-color: #2685eb;
+                color: white;
+            }
+            tr:nth-child(even) {
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="6">Jadwal Mata Kuliah Mahasiswa</th>
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Mata Kuliah</th>
+                <th>Ruang</th>
+                <th>Waktu</th>
+            </tr>
+            <tr>
+                <td>23090066</td>
+                <td>Akbar</td>
+                <td rowspan="2">Bahasa Inggris</td>
+                <td rowspan="2">D4.3</td>
+                <td rowspan="2">08.00-09.40</td>
+            </tr>
+            <tr>
+                <td>23090077</td>
+                <td>Tabah</td>
+            </tr>
+            <tr>
+                <td>23090088</td>
+                <td>Panji</td>
+                <td rowspan="2">Pemrograman Web</td>
+                <td rowspan="2">D4.1</td>
+                <td rowspan="2">10.30-13.00</td>
+            </tr>
+            <tr>
+                <td>23090099</td>
+                <td>Ucupp</td>
+            </tr>
+            <tr>
+                <td>23090111</td>
+                <td>Nanda</td>
+                <td rowspan="2">Pemrograman Komputer</td>
+                <td rowspan="2">D4.2</td>
+                <td rowspan="2">09.40-12.10</td>
+            </tr>
+            <tr>
+                <td>23090101</td>
+                <td>Putra</td>
+            </tr>
+            <tr>
+                <td>23090121</td>
+                <td>Riko</td>
+                <td rowspan="2">ERP</td>
+                <td rowspan="2">D4.4</td>
+                <td rowspan="2">13.50-16.20</td>
+            </tr>
+            <tr>
+                <td>23090131</td>
+                <td>Faisal</td>
+            </tr>
+        </table>
+    </body>
+</html>
